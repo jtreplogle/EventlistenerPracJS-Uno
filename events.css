@@ -1,0 +1,53 @@
+/*
+The first section's text should be bold.
+The last section's text should be bold and italicized.
+Make the buttons stop appearing next to each other as inline elements. Change them into block elements.*/
+
+.blue {
+  color: blue;
+}
+
+.large {
+  font-size: 2em;
+}
+
+.border {
+  border: 3px solid royalblue;
+  padding: 6px 10px;
+}
+
+.rounded {
+  border-radius: 30px;
+}
+
+article section:first-of-type {
+  font-weight: bold;
+}
+
+article section:last-of-type {
+  font-weight: bold;
+  font-style: italic;
+}
+
+button {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#guinea-pig {
+  display: inline-block;
+  margin: 10px;
+}
+
+.dotted {
+  border: 3px dotted red;
+  padding: 6px 10px;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
